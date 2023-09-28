@@ -1,16 +1,14 @@
 import './App.css';
 import Footer from './Components/Footer';
-import Hero from './Components/Hero';
-import Main from './Components/Main';
+import Hero from './Components/Home/Hero';
+import Main from './Components/Home/Main';
 import Navbar from './Components/Navbar';
 
 function App() {
   return (
-    <div className="font-[SF_Pro]">
-      <Navbar/>
+    <div className="">
       <Hero/>
       {/* <Main/> */}
-      <Footer/>
     </div>
   );
 }

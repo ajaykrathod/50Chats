@@ -12,3 +12,18 @@ body {
     font-family: 'SF Pro Display', sans-serif;
   }
 }
+
+
+/* Customize the scrollbar for Webkit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #DADBDD; /* Color of the thumb (scrollbar handle) */
+  border-radius: 4px;/* Border radius of the thumb */
+}
+
+::-webkit-scrollbar-track {
+  background-color: #fff; /* Color of the track (background) */
+}
