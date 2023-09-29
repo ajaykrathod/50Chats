@@ -2,7 +2,7 @@ import React from 'react'
 
 function LongCard({title,content,upvotes,replies}) {
   return (
-    <div className='w-[40vw] m-auto border border-[#DADBDD] p-4 rounded-t-lg rounded-b-lg'>
+    <div className='w-[40vw] m-auto border border-[#DADBDD] p-4 rounded-t-lg rounded-b-lg max-[550px]:w-[70vw]'>
       <h2 className='text-[#1F2730] text-[1.4em] font-medium'>
         {title}
       </h2>
